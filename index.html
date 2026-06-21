@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,7 +59,7 @@ section{border-top:1px solid var(--border);padding:4rem 0}
 .section-tag{font-size:11px;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--purple);margin-bottom:0.6rem}
 h2.section-title{font-size:1.75rem;font-weight:500;letter-spacing:-0.03em;color:var(--text);margin-bottom:1.75rem}
 
-.about-grid{display:grid;grid-template-columns:1fr;gap:2rem;align-items:start;max-width:700px}
+.about-grid{display:grid;grid-template-columns:280px 1fr;gap:3rem;align-items:start}
 .about-img-real{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:var(--radius)}
 .about-placeholder{width:100%;aspect-ratio:3/4;background:var(--purple-light);border-radius:var(--radius);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:var(--purple);font-size:12px;text-align:center;border:1px solid #C8B8F0}
 .about-text p{font-size:14px;color:var(--muted);line-height:1.8;margin-bottom:1rem}
@@ -167,9 +166,6 @@ footer strong{color:var(--text)}
         <div class="stat"><div class="stat-n">OCR</div><div class="stat-l">AI recruitment</div></div>
       </div>
     </div>
-    <div class="hero-photo">
-      <img src="photo.jpg" alt="Nagula Likith Raj" class="photo-real"/>
-    </div>
   </div>
 </div>
 
@@ -178,7 +174,9 @@ footer strong{color:var(--text)}
   <div class="container">
     <div class="section-tag">About me</div>
     <div class="about-grid">
-
+      <div class="about-img-wrap">
+        <img src="photo.jpg" alt="Nagula Likith Raj" class="about-img-real"/>
+      </div>
       <div class="about-text">
         <h2 class="section-title">Python & AI developer<br/>from Hyderabad</h2>
         <p>Hi, I'm Likith Raj — a <strong>Software Developer</strong> specialising in Python backend systems, Generative AI, and Machine Learning applications, based in Hyderabad.</p>
