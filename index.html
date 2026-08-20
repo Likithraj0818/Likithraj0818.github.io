@@ -190,7 +190,7 @@ footer strong{color:var(--text)}
         <h2 class="section-title">AI & Machine Learning Engineer<br/>from Hyderabad</h2>
         <p>Hi, I'm Likith Raj — an <strong>AI & Machine Learning Engineer</strong> with 4 years of professional experience, including dedicated hands-on work building NLP and Generative AI solutions in Python, based in Hyderabad.</p>
         <p>I've fine-tuned <strong>BERT and RoBERTa</strong> transformer models for insurance correspondence intent classification, built <strong>RAG platforms</strong> with Azure OpenAI, GPT-4o, and Azure AI Search for claims and policy search, and shipped an <strong>LLM-as-a-judge</strong> style evaluation framework to measure relevance, grounding, and hallucination in generated responses.</p>
-        <p>At <strong>Wysele Technologies</strong> I built backend APIs for a live HRMS serving 1,000+ employees, and created TalentFlow AI — an OCR-based recruitment tool that extracts candidate details directly from resumes. I also work with <strong>LangChain, CrewAI, TensorFlow, and OpenCV</strong> to build end-to-end AI applications, backed by a Full Stack Data Science & GenAI program at NareshIT.</p>
+        <p>At <strong>Wysele Technologies</strong> I build agentic, RAG-powered automation for SAP workflows and created TalentFlow AI — an OCR and LLM-driven recruitment platform serving a 1,000+ employee HRMS. I also work with <strong>LangChain, CrewAI, TensorFlow, and OpenCV</strong> to build end-to-end AI applications, backed by a Full Stack Data Science & GenAI program at NareshIT.</p>
         <p>I'm looking for AI Engineer, Machine Learning Engineer, GenAI Engineer, and NLP Engineer roles where I can build intelligent systems that make a real difference.</p>
         <div class="social-row">
           <a href="https://www.linkedin.com/in/likith-raj-b53794301/" target="_blank" class="social-chip">
@@ -313,9 +313,19 @@ footer strong{color:var(--text)}
           <div class="proj-icon">🧠</div>
           <span class="proj-badge badge-green">Production</span>
         </div>
-        <div class="proj-title">TalentFlow AI — Agentic AI HRMS & Recruitment Intelligence Platform</div>
-        <p class="proj-desc">Backend and OCR-driven recruitment module within an enterprise HRMS platform serving 1,000+ employees across 10–12 modules. Built REST APIs for payroll, attendance, leave, onboarding, and performance with role-scoped access, plus TalentFlow AI — an OCR-based recruitment tool that extracts candidate details directly from uploaded resumes with filters for sector, tech stack, and experience level. Extended with a Job Portal featuring online exams and certificates.</p>
-        <div class="proj-tech"><span>Python</span><span>FastAPI</span><span>OCR</span><span>PostgreSQL</span><span>MySQL</span></div>
+        <div class="proj-title">TalentFlow AI — Agentic Recruitment Intelligence Platform</div>
+        <p class="proj-desc">AI-powered recruitment platform for client Bihar GTPL, serving 1,000+ employees across 10–12 HRMS modules. OCR + NLP/LLM extraction turns resumes into structured candidate profiles; Google Gemini + LangChain drive contextual understanding and summarization; RAG pipelines with ChromaDB and Pinecone retrieve job descriptions and policies; CrewAI agents coordinate resume analysis, skill matching, and candidate evaluation using semantic similarity rather than keyword search. Exposed via FastAPI REST APIs across onboarding, attendance, leave, payroll, and appraisal modules, with role-based access and Docker containerization.</p>
+        <div class="proj-tech"><span>Gemini</span><span>LangChain</span><span>RAG</span><span>CrewAI</span><span>OCR</span><span>FastAPI</span></div>
+      </div>
+
+      <div class="proj-card featured">
+        <div class="proj-top">
+          <div class="proj-icon">⚙️</div>
+          <span class="proj-badge badge-purple">Agentic AI · RPA</span>
+        </div>
+        <div class="proj-title">AI-Powered SAP Automation & Intelligent Workflow Assistant</div>
+        <p class="proj-desc">Enterprise automation solution combining Generative AI, RAG, and browser automation to process SAP workflows. Python + Playwright automate complex data-entry, validation, and multi-stage business processes; Google Gemini + LangChain add contextual understanding and AI-assisted task execution; RAG pipelines with ChromaDB and Pinecone retrieve business and SAP process knowledge; CrewAI agents handle retrieval, validation, and workflow coordination, with AI-assisted exception handling before SAP submission.</p>
+        <div class="proj-tech"><span>Python</span><span>Playwright</span><span>Gemini</span><span>LangChain</span><span>RAG</span><span>CrewAI</span></div>
       </div>
 
       <div class="proj-card">
@@ -360,16 +370,6 @@ footer strong{color:var(--text)}
         </a>
       </div>
 
-      <div class="proj-card">
-        <div class="proj-top">
-          <div class="proj-icon">⚙️</div>
-          <span class="proj-badge badge-blue">RPA</span>
-        </div>
-        <div class="proj-title">SAP Portal Automation</div>
-        <p class="proj-desc">End-to-end browser automation for a client SAP web portal using Playwright and Python — automated data-entry, form-submission, and report-extraction workflows with scheduling and execution logging.</p>
-        <div class="proj-tech"><span>Python</span><span>Playwright</span><span>RPA</span></div>
-      </div>
-
     </div>
   </div>
 </section>
@@ -388,12 +388,13 @@ footer strong{color:var(--text)}
         </div>
         <div class="exp-co">Wysele Technologies · Hyderabad</div>
         <ul class="exp-buls">
-          <li>Built backend APIs for an HRMS at Bihar GTPL — 1,000+ employees across 10–12 modules — using FastAPI, PostgreSQL, and MySQL with role-scoped access</li>
-          <li>Replaced manual Excel-based payroll and attendance reporting with automated APIs, cutting reporting time ~70% and freeing 15+ HR hours/week</li>
-          <li>Built TalentFlow AI, an OCR-based recruitment tool that extracts candidate details directly from uploaded resumes</li>
-          <li>Automated SAP portal data-entry, form-submission, and report-extraction workflows using Playwright and Python</li>
+          <li>Built AI-driven SAP automation combining Google Gemini, LangChain, and RAG with Playwright to process SAP data-entry, validation, and multi-stage workflows</li>
+          <li>Designed RAG pipelines with ChromaDB and Pinecone for document ingestion, chunking, embeddings, and vector similarity search over internal knowledge sources</li>
+          <li>Built agentic workflows with CrewAI, coordinating specialized agents for retrieval, validation, reasoning, and workflow coordination</li>
+          <li>Built TalentFlow AI for client Bihar GTPL — an OCR + LLM recruitment platform turning resumes into structured candidate profiles, serving a 1,000+ employee HRMS across onboarding, attendance, leave, payroll, and appraisal modules</li>
+          <li>Developed FastAPI REST APIs with role-based access control and containerized services with Docker</li>
         </ul>
-        <div class="exp-tech"><span>Python</span><span>FastAPI</span><span>OCR</span><span>Playwright</span><span>Docker</span></div>
+        <div class="exp-tech"><span>Python</span><span>Gemini</span><span>LangChain</span><span>RAG</span><span>CrewAI</span><span>OCR</span><span>FastAPI</span><span>Docker</span></div>
       </div>
 
       <div class="exp-card">
@@ -468,12 +469,6 @@ footer strong{color:var(--text)}
         <div>
           <div class="cert-name">ChatGPT Prompt Engineering for Developers</div>
           <div class="cert-issuer">DeepLearning.AI</div>
-        </div>
-      </div>
-      <div class="cert-card">
-        <div>
-          <div class="cert-name">Programming for Everybody – Getting Started with Python</div>
-          <div class="cert-issuer">University of Michigan</div>
         </div>
       </div>
       <div class="cert-card">
